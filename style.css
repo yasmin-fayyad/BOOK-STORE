@@ -1,17 +1,44 @@
 *{
-    margin: 0;
+    margin :0;
     padding: 0;
+    font-family:sans-serif;
     box-sizing: border-box;
-    font-family: sans-serif;
-}
-section nav{
-    width: 100%;
+ }
+section{
+ height: 100vh;
+ width: 100%;
+ background-size: cover;
+ background-image: url(image/bg.png);
+ background-position: center;
+} 
+section nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #089;
+    width: 100%;
+    box-shadow: 0 0 1vw  #089da1;
     background: #fff;
-left: 0;
-z-index: 100;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+section nav .logo img{
+    width: 20%;
+    margin:0.5rem 0;
+}
+section nav ul{
+    list-style: none;
+}
+section nav li a:hover{
+    color: #089da1;
+}
+section nav .social_icon{
+ margin:0 0.3rem;
+ font-size: 1.1rem;
 
 }
+section nav .social_icon i:hover{
+color: #089da1;
+cursor: pointer;
+}
+
