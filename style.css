@@ -41,4 +41,40 @@ section nav .social_icon i:hover{
 color: #089da1;
 cursor: pointer;
 }
-
+section .main{
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: relative;
+top: 10%;
+}
+section .main h1{
+    font-size: 3.5rem;
+    position: relative;
+    top:5hv;
+    left :2%}
+    section .main h1 span{
+ color: #089da1;
+    }
+section .main p{
+width: 60%;
+text-align: justify;
+position: relative;
+top: 7vh;
+left: 2%;
+line-height: 1.5rem;
+}
+section .main .maintag .main_btn{
+   color: #fff;
+   text-decoration: none;
+   background: #089da1;
+   padding: 0.8rem 1.5rem;
+   position: relative;
+   top: 12vh;
+   left: 2%;
+}
+section .main .main_img img{
+    width: 60vw;
+ position: relative;
+top:1.5% ;
+right:  6vh;}
